@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.htwsaar.joshua.lasercontroller.PenActivity">
+
+    <ImageView
+        android:id="@+id/pen_one_img"
+        android:layout_width="390dp"
+        android:layout_height="382dp"
+        android:rotation="45"
+        app:srcCompat="@drawable/pen"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/text_on_pen"
+        android:layout_width="191dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/pen_one_img"
+        app:layout_constraintEnd_toEndOf="@+id/pen_one_img"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="@+id/pen_one_img"
+        app:layout_constraintTop_toTopOf="@+id/pen_one_img"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/text_input"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pen_one_img" />
+
+</android.support.constraint.ConstraintLayout>
