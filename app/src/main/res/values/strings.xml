@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">LaserController</string>
+    <string name="textOnPen" />
+    <string name="btnSend">Send</string>
+
+    <string-array name="spnFontStyle">
+        <item>OpenSans-Italic</item>
+        <item>OpenSans-Light</item>
+        <item>Oswald-Regular</item>
+        <item>Roboto-Regular</item>
+        <item>Pacifico</item>
+    </string-array>
 </resources>
